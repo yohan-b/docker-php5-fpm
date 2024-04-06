@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:bullseye
 MAINTAINER yohan <783b8c87@scimetis.net>
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get -y install php5-fpm php5-gd php5-mysql
